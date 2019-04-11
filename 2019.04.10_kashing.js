@@ -3,6 +3,7 @@ let hash = function(str) {
 	for (let i = 0; i < str.length; i++) {
 		hash += str.charCodeAt(i) * 2;
 	};
+	return hash;
 };
 
 
